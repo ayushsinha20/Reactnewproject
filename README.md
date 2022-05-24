@@ -1,262 +1,70 @@
-# Reactnewproject
-import React from "react";
+# Getting Started with Create React App
 
-class Home extends React.Component{
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-    render(){
-        return(
-        <>
-          <div>
-         <h1>STEP 2/5 (Eligibility Matrix)</h1>
-	<center>
-		<p><input type="checkbox" 
-	
-				onChange={this.onChange}
-		    
-			/>
-			SELECT ALL BRANCHES AND PROGRAMMES COMING FROM JEE ADVANCED<br/>
-			<input type="checkbox"/>
-		   SELECT ALL BRANCHES AND PROGRAMMES COMING FROM GATE<br/>
-		   <input type="checkbox"/>
-		   SELECT ALL BRANCHES AND PROGRAMMES COMING FROM JAM <br/>
-		   <input type="checkbox"/>
-		   SELECT ALL BRANCHES AND PROGRAMMES COMING FROM CAT</p>
-		   <table>
-		   	<tr>
-		   		<th>Program </th>
-		   		<th>All </th>
-		   		<th>AE </th>
-		   		<th>BSBE </th>
-		   		<th>CE </th>
-		   		<th>CHE </th>
-		   		<th>CSE </th>
-		   		<th>EE </th>
-		   		<th>ES </th>
-		   		<th>ME </th>
-		   		<th>MSE </th>
-		   		<th>PHY </th>
-		   		<th>CHM </th>
-		   		<th>MTH </th>
-		   		<th>ECO </th>
-		   		<th>DES </th>
-		   		<th>IME </th>
-		   		<th>CGS </th>
-		   		<th>HSS </th>
-		   		<th>EEM </th>
-		   		<th>MSP </th>
-		   		<th>NET </th>
-		   		<th>PSE </th>
-		   		<th>STATS </th>
-		   	</tr>
-		   	<tr>
-		   		<td>BT/BS/Double Major</td>
-		   		<td><input type="checkbox"	/></td>
-		   		<td><input type="checkbox"         
-				onChange={this.onChange}	/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   	</tr>
-		   	<tr>
-		   		<td>MT/MSc/MS(Research)</td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   	</tr>
-		   	<tr>
-		   		<td>Dual</td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   	</tr>
-		   		<tr>
-		   		<td>MDes</td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   	</tr>
-		   		<tr>
-		   		<td>MBA</td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   	</tr>
-		   		<tr>
-		   		<td>Phd</td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   		<td><input type="checkbox"/></td>
-		   	</tr>
-		   </table>
-		   <table>
-		   	<tr >
-		   		<th>AE AEROSPACE ENGINEERING</th>
-		   		<th>BSBE BIOLOGICAL SCIENCES AND BIOENGINEERING</th>
-		   		<th>CE CIVIL ENGINEERING</th>
-		   	</tr>
-		   	<tr >
-		   		<th>CHE CHEMICAL ENGINEERING</th>
-		   		<th>CSE COMPUTER SCIENCE AND ENGINEERING</th>
-		   		<th>EE ELECTRICAL ENGINEERING</th>
-		   	</tr>
-		   	<tr >
-		   		<th>ES EARTH SCIENCES</th>
-		   		<th>ME MECHANICAL ENGINEERING</th>
-		   		<th>MSE MATERIAL SCIENCE AND ENGINEERING</th>
-		   	</tr>
-		   	<tr >
-		   		<th>PHY PHYSICS</th>
-		   		<th>CHM CHEMISTRY</th>
-		   		<th>MTH MATHEMATICS AND SCIENTIFIC COMPUTING</th>
-		   	</tr>
-		   	<tr >
-		   		<th>ECO ECONOMICS</th>
-		   		<th>DES DESIGN PROGRAM</th>
-		   		<th>IME INDUSTRIAL MANAGEMENT AND ENGINEERING</th>
-		   	</tr>
-		   	<tr >
-		   		<th>CGS CONGINTIVE SCIENCES</th>
-		   		<th>HSS HUMANITIES AND SOCIAL SCIENCES</th>
-		   		<th>EEM ENVIRONMENTAL ENGINEERING AND MANAGEMENT</th>
-		   	</tr>
-		   	<tr >
-		   		<th>MSP MATERIAL SCIENCE PROGRAM</th>
-		   		<th>NET NUCLEAR ENGINEERING AND TECHNOLOGY</th>
-		   		<th>PSE PHOTONICS SCIENCE AND ENGINEERING</th>
-		   	</tr>
-		   	<tr >
-		   		<th>STATS STATISTICS</th>
-		   		<th></th>
-		   		<th></th>
-		   	</tr>
-         </table>
-         
-  </center>
-<p>FOR MORE DETAILS ABOUT ACADEMIC PROGRAMMES CLICK HERE<input type="checkbox"/><br/>
-    RESET 
-    <button type="reset" value="Reset">Reset</button></p>
-        </div>
-        </>
-        );
-    }
-}
+## Available Scripts
 
-export default Home;
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
